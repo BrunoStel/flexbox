@@ -7,19 +7,8 @@
 
 <link rel="stylesheet" type="text/css" href="assets/css/template.css" />
 
-<script type="text/javascript">
-window.onload = function(){
-	document.querySelector(".menuMobile").addEventListener("click", function(){
-		if(document.querySelector(".menu nav ul").style.display == 'flex') {
-			document.querySelector(".menu nav ul").style.display = 'none';
-		} else {
-			document.querySelector(".menu nav ul").style.display = 'flex';
-		}
-	});
-};
-</script>
 
-<title>MediCenter</title>
+<title>MegaRoboled</title>
 
 </head>
 <body>
@@ -28,6 +17,7 @@ window.onload = function(){
 <section id="banner">
 	<div class="container column">
 		<header>
+			<div class="menu">
 			<nav>
 				<div class="menuMobile">
 					<div class="mm_line"></div>
@@ -41,7 +31,9 @@ window.onload = function(){
 					<li><a href="https://megaroboled.com.br/fotos/" target="_blank">Galeria</a></li>
 				</ul>
 			</nav>
+		</div>
 		</header>
+
 		<div class="linha"></div>
 		<div class="banner_headline">
 			<img class="mega" src="assets/images/mega.png">
@@ -51,32 +43,16 @@ window.onload = function(){
 			<div class="banner1">
 				<div class="banner_title">Bandas e Djs</div>
 				<div class="banner_desc">Temos combos ou indicações de diversas bandas, músicos e Djs, que juntos com os nossos Megas Robôs de Led e personagens irão tornar seu evento um show!</div>
-				<a href="">Saiba mais</a>
+				<a href="https://megaroboled.com.br/fotos/" target="_blank">Saiba mais</a>
 			</div>
 			<div class="banner2">
 				<div class="banner_title">Som, iluminação e Multimídia</div>
 				<div class="banner_desc">Ofertamos através de nossos parceiros, todo o equipamento e estrutura necessário para sua festa: Som, iluminação, luz cênica, estrutura e multimídia.</div>
-				<a href="">Saiba mais</a>
-			</div>
-			<!--<div class="banner3">
-				<div class="banner_title">Opening Hours</div>
-
-				<div class="agenda">
-					<div class="dia">Segunda-feira</div>
-					<div class="dia">08:00-17:00</div>
-				</div>
-				<div class="agenda">
-					<div>Terça-feira</div>
-					<div>08:00-17:00</div>
-				</div>
-				<div class="agenda">
-					<div>Quarta-feira</div>
-					<div>08:00-17:00</div>
-				</div>-->
-
+				<a href="https://megaroboled.com.br/fotos/" target="_blank">Saiba mais</a>
 			</div>
 		</div>
 	</div>
+
 </section>
 <section id="geral">
 	<div class="container">
@@ -151,7 +127,6 @@ window.onload = function(){
 
 <footer id="orcamento">
 	<div class="container flexColumn">
-		
 
 		<div class="footer_area">
 			<div class="footer_areaitem">
@@ -195,25 +170,6 @@ window.onload = function(){
 
 	</div>
 </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
+<script src="assets/js/scripts.js"></script>
 </html>
