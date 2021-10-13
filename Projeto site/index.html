@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,user-scalable=0" />
+
+<link rel="stylesheet" type="text/css" href="assets/css/template.css" />
+
+<script type="text/javascript">
+window.onload = function(){
+	document.querySelector(".menuMobile").addEventListener("click", function(){
+		if(document.querySelector(".menu nav ul").style.display == 'flex') {
+			document.querySelector(".menu nav ul").style.display = 'none';
+		} else {
+			document.querySelector(".menu nav ul").style.display = 'flex';
+		}
+	});
+};
+</script>
+
+<title>MediCenter</title>
+
+</head>
+<body>
+
+<header>
+	<div class="container">
+		<div class="menu">
+			<nav>
+				<div class="menuMobile">
+					<div class="mm_line"></div>
+					<div class="mm_line"></div>
+					<div class="mm_line"></div>
+				</div>
+				<ul>
+					<li class="active"><a href="">HOME</a></li>
+					<li><a href="">Eventos</a></li>
+					<li><a href="">Contato</a></li>
+					<li><a href="">Galeria</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+
+<section id="banner">
+	<div class="container column">
+		<div class="banner_headline">
+			<img class="mega" src="assets/images/mega.png">
+		</div>
+		<div class="banner_options">
+			<div class="banner1">
+				<div class="banner_title">Emergency Case</div>
+				<div class="banner_desc">Algum texto qualquer</div>
+				<a href="">Read more</a>
+			</div>
+			<div class="banner2">
+				<div class="banner_title">Doctors Timetable</div>
+				<div class="banner_desc">Algum texto qualquer</div>
+				<a href="">Read more</a>
+			</div>
+			<div class="banner3">
+				<div class="banner_title">Opening Hours</div>
+
+				<div class="agenda">
+					<div class="dia">Segunda-feira</div>
+					<div class="dia">08:00-17:00</div>
+				</div>
+				<div class="agenda">
+					<div>Terça-feira</div>
+					<div>08:00-17:00</div>
+				</div>
+				<div class="agenda">
+					<div>Quarta-feira</div>
+					<div>08:00-17:00</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="geral">
+	<div class="container">
+		<section>
+			<div class="widget">
+				<div class="widget_title">
+					<div class="widget_title_text">Eventos</div>
+					<div class="widget_title_bar"></div>
+				</div>
+				<div class="widget_body flex">
+					<article>
+							<div class="news_data">
+								<div class="news_posted_at">10 DEZ 21</div>
+								<div class="news_comments">2</div>			
+							</div>		
+							<div class="news_title">
+								Evento realizado em Umuarama
+							</div>
+							<div class="news_thumbnail">
+								<iframe src="https://www.youtube.com/embed/mfTYVlsMvJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+					
+					</article>
+
+					<article>
+						<div class="news_data">
+							<div class="news_posted_at">10 DEZ 21</div>
+							<div class="news_comments">2</div>			
+						</div>		
+						<div class="news_title">
+							Evento realizado em Umuarama
+						</div>
+						<div class="news_thumbnail">
+							<iframe src="https://www.youtube.com/embed/56xrjKLXGso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+				
+				</article>
+
+				<article>
+					<div class="news_data">
+						<div class="news_posted_at">10 DEZ 21</div>
+						<div class="news_comments">2</div>			
+					</div>		
+					<div class="news_title">
+						Evento realizado em Umuarama
+					</div>
+					<div class="news_thumbnail">
+						<iframe src="https://www.youtube.com/embed/mfTYVlsMvJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+			
+				</article>
+
+			</div>
+			</div>
+		</section>
+		<aside>
+			<div class="widget">
+				<div class="widget_title">
+					<div class="widget_title_text">Galeria</div>
+					<div class="widget_title_bar"></div>
+				</div>
+				<div class="widget_imagens">
+					<img class="imagem" src="assets/images/foto1.jpg">
+					<img class="imagem" src="assets/images/foto2.jpg">
+					<img class="imagem" src="assets/images/foto3.jpg">
+				</div>
+			</div>
+			<div class="widget">
+				<div class="widget_title">
+					<div class="widget_title_text">Faça um orçamento</div>
+					<div class="widget_title_bar"></div>
+				</div>
+				<div>
+					<div class="contato">
+						<div>Vestibulum felis augue, pellentesque et hendrerit non, porttitor ac lorem. Nam accumsan, elit at scelerisque auctor, eros diam ullamcorper sapien, sit amet lacinia quam libero id nulla..</div>
+					</div></br>
+					<div class="contato">
+						<img class="email" src="assets/images/email.jpg" />
+						<div class="info">exemplo@gmail.com</div>
+					</div>
+					<div class="contato">
+						<a href="https://api.whatsapp.com/send?phone=5544998038080" target="_blank"> <img class="whats" src="assets/images/whats.jpg" /></a> 
+						<a href="https://api.whatsapp.com/send?phone=5544998038080" target="_blank"> <div class="info">(XX)XXXXX-XXXX</div></a> 
+					</div>
+					<div class="contato">
+						<a href="https://www.instagram.com/megaroboled/" target="_blank"><img class="whats" src="assets/images/insta.jpg" /></a>
+						<div class="info">@megaroboled</div>
+					</div>
+				</div>
+			</div>
+		</aside>
+	</div>
+</section>
+
+<footer>
+	<div class="container flexColumn">
+		<div class="footer_menu">
+			<div class="fm_1">
+				<a href="">
+					...
+				</a>
+			</div>
+			<div class="fm_2">
+				<a href="">
+					...
+				</a>
+			</div>
+			<div class="fm_3">
+				<a href="">
+					...
+				</a>
+			</div>
+		</div>
+
+		<div class="footer_area">
+			<div class="footer_areaitem">
+				<div class="widget">
+					<div class="widget_title">
+						<div class="widget_title_text">Medicenter Clinic</div>
+						<div class="widget_title_bar"></div>
+					</div>
+					<div class="widget_body">
+						...
+					</div>
+				</div>
+			</div>
+			<div class="footer_areaitem">
+				<div class="widget">
+					<div class="widget_title">
+						<div class="widget_title_text">Latest Posts</div>
+						<div class="widget_title_bar"></div>
+					</div>
+					<div class="widget_body">
+						...
+					</div>
+				</div>
+			</div>
+			<div class="footer_areaitem">
+				<div class="widget">
+					<div class="widget_title">
+						<div class="widget_title_text">Latest Tweets</div>
+						<div class="widget_title_bar"></div>
+					</div>
+					<div class="widget_body">
+						...
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer_copy">
+			Coyright - Todos os direitos reservados
+		</div>
+
+	</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
