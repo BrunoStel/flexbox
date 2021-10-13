@@ -5,16 +5,11 @@ body {
 	margin:0;
 	padding:0;
 }
-header {
-	display:flex;
-	justify-content:flex-end;
-	height:100px;
-	background-color: rgb(121, 216, 216);
-	
-}
+
+
 .container {
 	display:flex;
-	justify-content:flex-end;
+	justify-content:center;
 	width:990px;
 
 }
@@ -28,8 +23,6 @@ header {
 	
 }
 
-
-
 nav ul,
 nav li {
 	list-style: none;
@@ -40,11 +33,15 @@ nav ul {
 	display:flex;
 }
 nav a {
-	display:block;
 	padding:15px;
 	text-decoration:none;
 	text-transform:uppercase;
-	color:#727272;
+	color:white;
+}
+.linha{
+	border-bottom: solid 2px white;
+	margin-top: 12px;
+	box-shadow: 5px 5px 5px #888888
 }
 nav .active a,
 nav a:hover {
@@ -61,6 +58,12 @@ nav a:hover {
 	height:670px;
 }
 
+header{
+	display: flex;
+	justify-content: flex-end;
+	align-content: center;
+	margin-top: 40px;
+}
 .mega{
 	width: 300px;
 	height: 300px;
@@ -87,23 +90,18 @@ nav a:hover {
 	color:#FFFFFF;
 	padding:20px;
 }
-.banner1 {
-	background-color:#39aae1;
-}
-.banner2 {
-	background-color:#0079c7;
-}
-.banner3 {
-	background-color:#2b4c99;
-}
+
 .banner_title {
 	font-size:21px;
+	text-shadow:5px 5px 5px #888888 ;
 }
 .banner_desc {
-	font-size:12px;
+	font-size:15px;
 	margin-top:20px;
 	margin-bottom:20px;
+	text-align: justify;
 }
+
 .banner_options a {
 	display:inline-block;
 	border:1px solid #FFFFFF;
@@ -147,9 +145,9 @@ nav a:hover {
 	height: 100%;
 	width: 100%;
 	margin-bottom: 10px;
+	box-shadow: 5px 5px 5px #888888;
+
 }
-
-
 
 .email, .whats{
 	width: 30px;
@@ -160,12 +158,12 @@ nav a:hover {
 	display: flex;
 	margin-top: 12px;
 	padding-bottom: 12px;
-	border-bottom: solid 1px rgba(180, 174, 174, 0.623);
-	font-size: 13px; 
+	font-size: 13px;
+	
 }
 .contato a{
 	text-decoration:none;
-	color:black;
+	color:white;
 }
 
 .info{
@@ -252,7 +250,7 @@ article .news_resume {
 }
 
 footer {
-	background-color:#1e1e1e;
+	background-color:rgb(33, 38, 44);
 	display:flex;
 	justify-content:center;
 }
@@ -281,10 +279,11 @@ footer {
 
 .footer_area {
 	display:flex;
+	
 }
 .footer_areaitem {
 	flex:1;
-	color:#FFFFFF;
+	
 }
 .flexColumn {
 	flex-direction:column;
@@ -349,6 +348,7 @@ footer .widget_title_text {
 	.footer_area {
 		flex-direction: column;
 		padding:20px;
+	
 	}
 
 	.footer_copy {
@@ -366,9 +366,7 @@ footer .widget_title_text {
 	    background-color: #FFFFFF;
 	}
 
-	header {
-		height:auto;
-	}
+	
 	.logo {
 		padding-left:20px;
 	}
@@ -379,7 +377,6 @@ footer .widget_title_text {
 		justify-content:space-around;
 	}
 }
-
 
 
 

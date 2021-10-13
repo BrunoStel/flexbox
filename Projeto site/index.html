@@ -24,9 +24,10 @@ window.onload = function(){
 </head>
 <body>
 
-<header>
-	<div class="container">
-		<div class="menu">
+
+<section id="banner">
+	<div class="container column">
+		<header>
 			<nav>
 				<div class="menuMobile">
 					<div class="mm_line"></div>
@@ -35,32 +36,29 @@ window.onload = function(){
 				</div>
 				<ul>
 					<li class="active"><a href="">HOME</a></li>
-					<li><a href="">Eventos</a></li>
-					<li><a href="">Contato</a></li>
-					<li><a href="">Galeria</a></li>
+					<li><a href="#eventos">Eventos</a></li>
+					<li><a href="#orcamento">Contato</a></li>
+					<li><a href="https://megaroboled.com.br/fotos/" target="_blank">Galeria</a></li>
 				</ul>
 			</nav>
-		</div>
-	</div>
-</header>
-
-<section id="banner">
-	<div class="container column">
+		</header>
+		<div class="linha"></div>
 		<div class="banner_headline">
 			<img class="mega" src="assets/images/mega.png">
 		</div>
+
 		<div class="banner_options">
 			<div class="banner1">
-				<div class="banner_title">Emergency Case</div>
-				<div class="banner_desc">Algum texto qualquer</div>
-				<a href="">Read more</a>
+				<div class="banner_title">Bandas e Djs</div>
+				<div class="banner_desc">Temos combos ou indicações de diversas bandas, músicos e Djs, que juntos com os nossos Megas Robôs de Led e personagens irão tornar seu evento um show!</div>
+				<a href="">Saiba mais</a>
 			</div>
 			<div class="banner2">
-				<div class="banner_title">Doctors Timetable</div>
-				<div class="banner_desc">Algum texto qualquer</div>
-				<a href="">Read more</a>
+				<div class="banner_title">Som, iluminação e Multimídia</div>
+				<div class="banner_desc">Ofertamos através de nossos parceiros, todo o equipamento e estrutura necessário para sua festa: Som, iluminação, luz cênica, estrutura e multimídia.</div>
+				<a href="">Saiba mais</a>
 			</div>
-			<div class="banner3">
+			<!--<div class="banner3">
 				<div class="banner_title">Opening Hours</div>
 
 				<div class="agenda">
@@ -74,16 +72,15 @@ window.onload = function(){
 				<div class="agenda">
 					<div>Quarta-feira</div>
 					<div>08:00-17:00</div>
-				</div>
+				</div>-->
 
 			</div>
 		</div>
 	</div>
 </section>
-
 <section id="geral">
 	<div class="container">
-		<section>
+		<section id="eventos">
 			<div class="widget">
 				<div class="widget_title">
 					<div class="widget_title_text">Eventos</div>
@@ -96,7 +93,7 @@ window.onload = function(){
 								<div class="news_comments">2</div>			
 							</div>		
 							<div class="news_title">
-								Evento realizado em Umuarama
+								Robôs de Led
 							</div>
 							<div class="news_thumbnail">
 								<iframe src="https://www.youtube.com/embed/mfTYVlsMvJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -110,7 +107,7 @@ window.onload = function(){
 							<div class="news_comments">2</div>			
 						</div>		
 						<div class="news_title">
-							Evento realizado em Umuarama
+							Evento realizado
 						</div>
 						<div class="news_thumbnail">
 							<iframe src="https://www.youtube.com/embed/56xrjKLXGso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -124,10 +121,10 @@ window.onload = function(){
 						<div class="news_comments">2</div>			
 					</div>		
 					<div class="news_title">
-						Evento realizado em Umuarama
+						Banda IN BOX
 					</div>
 					<div class="news_thumbnail">
-						<iframe src="https://www.youtube.com/embed/mfTYVlsMvJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe  src="https://www.youtube.com/embed/QJcW6xv24eg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 			
 				</article>
@@ -147,84 +144,46 @@ window.onload = function(){
 					<img class="imagem" src="assets/images/foto3.jpg">
 				</div>
 			</div>
-			<div class="widget">
-				<div class="widget_title">
-					<div class="widget_title_text">Faça um orçamento</div>
-					<div class="widget_title_bar"></div>
-				</div>
-				<div>
-					<div class="contato">
-						<div>Vestibulum felis augue, pellentesque et hendrerit non, porttitor ac lorem. Nam accumsan, elit at scelerisque auctor, eros diam ullamcorper sapien, sit amet lacinia quam libero id nulla..</div>
-					</div></br>
-					<div class="contato">
-						<img class="email" src="assets/images/email.jpg" />
-						<div class="info">exemplo@gmail.com</div>
-					</div>
-					<div class="contato">
-						<a href="https://api.whatsapp.com/send?phone=5544998038080" target="_blank"> <img class="whats" src="assets/images/whats.jpg" /></a> 
-						<a href="https://api.whatsapp.com/send?phone=5544998038080" target="_blank"> <div class="info">(XX)XXXXX-XXXX</div></a> 
-					</div>
-					<div class="contato">
-						<a href="https://www.instagram.com/megaroboled/" target="_blank"><img class="whats" src="assets/images/insta.jpg" /></a>
-						<div class="info">@megaroboled</div>
-					</div>
-				</div>
-			</div>
+		
 		</aside>
 	</div>
 </section>
 
-<footer>
+<footer id="orcamento">
 	<div class="container flexColumn">
-		<div class="footer_menu">
-			<div class="fm_1">
-				<a href="">
-					...
-				</a>
-			</div>
-			<div class="fm_2">
-				<a href="">
-					...
-				</a>
-			</div>
-			<div class="fm_3">
-				<a href="">
-					...
-				</a>
-			</div>
-		</div>
+		
 
 		<div class="footer_area">
 			<div class="footer_areaitem">
 				<div class="widget">
 					<div class="widget_title">
-						<div class="widget_title_text">Medicenter Clinic</div>
+						<div class="contato">
+							<a href="https://api.whatsapp.com/send?phone=5544998038080" target="_blank"> <img class="whats" src="assets/images/whats.jpg" /></a> 
+							<a href="https://api.whatsapp.com/send?phone=5544998038080" target="_blank"> <div class="info">(44) 99803-8080 </div></a> 
+						</div>
 						<div class="widget_title_bar"></div>
-					</div>
-					<div class="widget_body">
-						...
 					</div>
 				</div>
 			</div>
 			<div class="footer_areaitem">
 				<div class="widget">
 					<div class="widget_title">
-						<div class="widget_title_text">Latest Posts</div>
+						<div class="contato">
+							<a href="https://www.instagram.com/megaroboled/" target="_blank"><img class="whats" src="assets/images/insta.jpg" /></a>
+							<a href="https://www.instagram.com/megaroboled/" target="_blank"><div class="info">@megaroboled</div></a>
+						</div> 	
 						<div class="widget_title_bar"></div>
-					</div>
-					<div class="widget_body">
-						...
 					</div>
 				</div>
 			</div>
 			<div class="footer_areaitem">
 				<div class="widget">
 					<div class="widget_title">
-						<div class="widget_title_text">Latest Tweets</div>
+						<div class="contato">
+							<img class="email" src="assets/images/email.png" />
+							<a><div class="info">exemplo@gmail.com</div></a>
+						</div>
 						<div class="widget_title_bar"></div>
-					</div>
-					<div class="widget_body">
-						...
 					</div>
 				</div>
 			</div>
